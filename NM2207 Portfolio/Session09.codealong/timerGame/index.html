@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8"> 
+        <link rel="stylesheet" type="text/css" href="css/appstyle.css">
+        <!--  Include the raphael library from the jslibs directory  -->
+        <script type="text/javascript" src="jslibs/raphael.js"></script>
+        <!--  Use the require.js module loader, and tell it where our main JavaScript file is  -->
+        <script defer type="text/javascript" src="appscripts/main.js"> </script>
+        <title>sound it out</title>
+    </head>
+
+  <body>
+    <div class="container">
+      <header class="header">
+        <p>header</p>
+      </header>
+
+      <nav class="sidebar">
+        <input id="startButtonID" type="button" value="TOGGLE" height=""><br><br>
+        <br>
+        <input type="radio" id="easyButt" name="difficulty" id="easy" checked="true">Easy<br>
+        <input type="radio" id="hardButt" name="difficulty" id="hard">Hard
+      </nav>
+
+      <article class="content" id="centerDiv">
+
+      </article>
+
+      <!-- Ditto the previous note about <aside>. -->
+      <aside class="sidebar" align = center>
+        <a href="../../index.html"> Return </a>
+
+      </aside>
+
+      <footer class="footer" id="myFooter" align = center>
+        <p> Footer </p>
+      </footer>
+
+    </div>
+</html>
+
