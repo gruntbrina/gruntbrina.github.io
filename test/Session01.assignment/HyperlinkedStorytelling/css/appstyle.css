@@ -1,0 +1,105 @@
+html{
+	height:100%;
+	width:100%;
+}
+body {
+	height:100%;
+	width:100%;
+	background-color: #F45B69;  /* a predefined html color name */
+	color:white;
+	overflow:scroll;
+}
+h1 {
+	color:#F6E8EA;
+	text-align:center;
+}
+
+h2 {
+	color:black;
+	text-align:center;
+}
+
+p {
+	text-align:center;
+}
+
+.end1 {
+	background-color:#C8EAD3;
+	color:black;
+}
+
+.end2 {
+	background-color:bisque;
+	color:black;
+}
+
+.Quotation {
+	background-color:tomato;
+	color:#4B543B;
+	border:2px solid white;
+	margin:auto;
+	padding:0.5%;
+	width:40%;
+	/*height:25%;*/
+}
+
+.StoryContent {
+	background-color:#7692FF;
+	color:white;
+	text-align: center;
+	border:2px dotted black;
+	margin:auto;
+	width:50%;
+}
+
+#park {
+	height:auto;
+	width:30%;
+	text-align:center;
+	margin:auto;
+}
+
+#apartment {
+	height:auto;
+	width:30%;
+	text-align:center;
+	margin:auto;
+}
+
+#smile {
+	height:auto;
+	width: 30%;
+	text-align:center;
+	margin:auto;
+
+}
+
+img {
+	max-width:100%;
+	/*Refered to: https://www.geeksforgeeks.org/resize-image-proportionally-with-css/#:~:text=The%20max%2Dwidth%20property%20in,image%20defined%20in%20the%20HTML.&text=Width%20can%20also%20be%20used,already%20present%20on%20the%20image.*/
+}
+
+strong {
+	color:black;
+	font-weight:bold;
+	/*Refered to:https://www.w3schools.com/cssref/pr_font_weight.asp*/
+}
+
+a {
+	color:sienna;
+}
+
+/*
+Information to put in: 
+#1: Different colored background [/]
+#2: Center our headers [/]
+#3: Create 2 different classes - Story Text Para & The other for quotation [/]
+#4:Use classes to give the story text paras a different color than the para
+you use for quotations [/]
+#5: Put quotation paragraphs in boxes centered on the page
+(Use % of the page width w a specially colored bg & text color) [/]
+#6: Give quotation box a fancy border [/]
+#7: Use padding for text [/]
+#8: Center your images (Wrap <img> element in <div> and then style 
+the div the same the header) [/]
+*/
